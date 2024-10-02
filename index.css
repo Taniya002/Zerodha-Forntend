@@ -1,0 +1,40 @@
+.nav-link{
+    margin-left: 30px;   
+}
+.col a{
+    text-decoration: none;
+    color:#666;
+    font-weight: 500;
+}
+.col .heading{
+    font-weight: 600;
+}
+.lastrow{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    color:#9b9b9b;
+    font-weight: 500;
+}
+#support-hero{
+    background-color:rgb(56,126,209);
+    color: white;
+}
+#support-hero a{
+    color:white;
+    padding: 10px;
+    line-height: 2.4;
+    font-size: 17px;
+}
+#supportWrapper{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 150px;
+}
+#support-hero input{
+    padding:10px 50px;
+    width: 100%;
+    font-size: 20px;
+    border-radius: 10px;
+    border: white;
+}
