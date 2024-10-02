@@ -5,14 +5,11 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "webpack",
     "lint": "eslint . --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
     "start": "node index.js",
-    "build": "webpack",
-    "test": "echo \"Error: no test specified\" && exit 1",
     "test": "jest"
-
   },
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -20,7 +17,8 @@
     "react": "^18.3.1",
     "react-bootstrap": "^2.10.4",
     "react-dom": "^18.3.1",
-    "react-router-dom": "^6.26.1"
+    "react-router-dom": "^6.26.1",
+    "webpack": "^5.95.0"
   },
   "devDependencies": {
     "@types/react": "^18.3.3",
